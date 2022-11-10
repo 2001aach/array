@@ -1,0 +1,16 @@
+def find_max():
+    a=[1,89,5,33,5,2,78]
+    maximum=a[0]
+    for i in a[1:]:
+        if i>maximum:
+            maximum=i
+            index=a.index(maximum)
+    print(maximum,index)
+
+find_max()
+
+
+
+#array = [10, 89, 9, 56, 4, 80, 8]
+#print (min(array))
+#print (max(array))
